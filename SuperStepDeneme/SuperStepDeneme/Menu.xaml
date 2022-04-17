@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SuperStepDeneme.Page2">
+
+    <ScrollView HeightRequest="3600">
+        <StackLayout>
+            <ImageButton VerticalOptions="StartAndExpand" Margin="1" Source="brands.png" BackgroundColor="White" WidthRequest="600" HeightRequest="150"/>
+            <ImageButton VerticalOptions="StartAndExpand" Margin="1" Source="man.png" BackgroundColor="White" WidthRequest="600" HeightRequest="150"/>
+            <ImageButton VerticalOptions="StartAndExpand" Margin="1" Source="woman.png" BackgroundColor="White" WidthRequest="600" HeightRequest="150"/>
+            <ImageButton VerticalOptions="StartAndExpand" Margin="1" Source="kid.png" BackgroundColor="White" WidthRequest="600" HeightRequest="150"/>
+            <ImageButton VerticalOptions="StartAndExpand" Margin="1" Source="dress.png" BackgroundColor="White" WidthRequest="600" HeightRequest="150"/>
+            <ImageButton VerticalOptions="StartAndExpand" Margin="1" Source="discount.png" BackgroundColor="White" WidthRequest="600" HeightRequest="150"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

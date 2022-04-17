@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SuperStepDeneme.CreateAccountPage">
+   
+
+    <ScrollView HeightRequest="3000">
+        <StackLayout Margin="15"
+                     VerticalOptions="Start">
+            <Entry Placeholder="Ad"
+               Keyboard="Email"/>
+        <Entry Placeholder="Soyad"
+                IsPassword="True"/>
+        <Entry Placeholder="Email Adresiniz"
+               Keyboard="Email"/>
+        <Entry Placeholder="Cep Telefonu 0 (555) 555 55 55"
+               Keyboard="Numeric"/>
+        <DatePicker/>
+            <RadioButton Content="Erkek" HorizontalOptions="FillAndExpand"/>
+            <RadioButton Content="Kadın" HorizontalOptions="FillAndExpand"/>
+            <RadioButton Content="Belirtmek istemiyorum" HorizontalOptions="FillAndExpand"/>
+
+        <Entry Placeholder="Şifreniz"
+                IsPassword="True"/>
+            <CheckBox x:Name="checkBox" Color="DarkRed" IsChecked ="False"/>
+            <Label Text="Üyelik Formu Aydınlatma Metnini okudum" VerticalOptions="StartAndExpand"/>
+            <CheckBox x:Name="checkBox1" Color="DarkRed" IsChecked ="False" />
+            <Label Text="Kullanıcı Sözleşmesi'ni okudum,kabul ediyorum." VerticalOptions="End"/>
+            <CheckBox x:Name="checkBox2" Color="DarkRed" IsChecked ="False"/>
+            <Label Text="Tarafıma ticari elektronik ileti gönderilmesine ve bu kapsamda verilerimin işlenmesine açık rıza veriyorum." VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="signUpButtonCreate"
+                Text="ÜYE OL"
+                TextColor="White"
+                Font="20"
+                BackgroundColor="DarkRed"
+                BorderWidth="2"
+                BorderColor="DarkRed"/>
+            <Label Text=" "
+               FontSize="Micro"/>   
+            <Button x:Name="loginButtonCreate"
+                Text="GİRİŞ YAP"
+                TextColor="DarkRed"
+                Font="20"
+                BackgroundColor="White"
+                BorderWidth="2"
+                BorderColor="DarkRed"/>
+            <Label Text=" "
+               FontSize="Micro"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
+    
