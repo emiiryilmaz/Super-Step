@@ -5,8 +5,8 @@
              xmlns:local="clr-namespace:SuperStepDeneme"
              x:Class="SuperStepDeneme.Page1">
     <TabbedPage.ToolbarItems>
-        <ToolbarItem Text="SuperStep"
-                     IconImageSource="indir.png"
+        <ToolbarItem 
+                     IconImageSource="indir.png" 
                      Order="Default"
                      Priority="0"/>
         <ToolbarItem Text="Search" 
@@ -18,7 +18,7 @@
                      Order="Primary"
                      Priority="2"
                      />
-        </TabbedPage.ToolbarItems>
+    </TabbedPage.ToolbarItems>
     <local:WomanPage Title="Kadın"/>
     <local:ManPage Title="Erkek"/>
     <local:KidPage Title="Çocuk"/>

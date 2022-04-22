@@ -3,10 +3,57 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SuperStepDeneme.KidPage">
     <ContentPage.Content>
+        <ScrollView HeightRequest="3600">
+            
         <StackLayout>
-            <Label Text="Welcome to Kid Page!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+                <ScrollView Orientation="Horizontal">
+                    <StackLayout>
+                        <Grid BackgroundColor="White">
+                            <ImageButton Source="cocukskechers.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                            <ImageButton Source="cocukpuma.jpg" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                            <ImageButton Source="cocunike.jpg" Grid.Row="0" Grid.Column="2" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                            <ImageButton Source="cocukadidas.jpg" Grid.Row="0" Grid.Column="3" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                            <ImageButton Source="cocukconverse.jpg" Grid.Row="0" Grid.Column="4" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                            <ImageButton Source="cocuklacoste.jpg" Grid.Row="0" Grid.Column="5" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                        </Grid>
+                    </StackLayout>
+                </ScrollView>
+            
+                <ImageButton VerticalOptions="StartAndExpand" Source="kidnike.jpg" BackgroundColor="White" WidthRequest="510" HeightRequest="400"/>
+            
+            <Label Text="Öne Çıkanlar" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="Large" FontAttributes="Bold">
+            </Label>
+            
+            <StackLayout>
+                    <Grid BackgroundColor="White">
+                    <ImageButton VerticalOptions="Start" Source="crocskid.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+                    <ImageButton VerticalOptions="StartAndExpand" Source="nikekid.jpg" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+                </Grid>
+            </StackLayout>
+                
+            <Label Text="Kategori Seçenekleri" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="Medium" FontAttributes="Bold">
+                </Label>
+                <ScrollView Orientation="Horizontal">
+                <StackLayout>
+                    <Grid BackgroundColor="White">
+                            <ImageButton Source="cocuksneaker.jpg.jpeg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="100" HeightRequest="100"/>
+                            <ImageButton Source="cocuksandalet.jpg" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="100" HeightRequest="100"/>
+                        <ImageButton Source="cocuksapka.jpg" Grid.Row="0" Grid.Column="2" BackgroundColor="White" WidthRequest="100" HeightRequest="100"/>
+                        <ImageButton Source="cocukcanta.jpg" Grid.Row="0" Grid.Column="3" BackgroundColor="White" WidthRequest="100" HeightRequest="100"/>
+                    </Grid>
+
+                </StackLayout>
+        </ScrollView>
+        <ImageButton VerticalOptions="StartAndExpand" Source="indirim.jpg" BackgroundColor="White" WidthRequest="350" HeightRequest="300"/>
+            <Grid BackgroundColor="White">
+
+                <ImageButton VerticalOptions="Start" Source="sneakerkid.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+                <ImageButton VerticalOptions="StartAndExpand" Source="kidhat.jpg" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+                <ImageButton VerticalOptions="Start" Source="kidhat.jpg" Grid.Row="1" Grid.Column="0" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+                <ImageButton VerticalOptions="StartAndExpand" Source="sneakerkidl.jpg" Grid.Row="1" Grid.Column="1" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+            </Grid>
+                <ImageButton VerticalOptions="StartAndExpand" Source="socialmedia.jpg" BackgroundColor="White" WidthRequest="400" HeightRequest="220"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

@@ -3,29 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SuperStepDeneme.BrandPage">
     <ContentPage.Content>
-        <Grid BackgroundColor="White" RowSpacing="5" ColumnSpacing="5">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
+        
+            <ScrollView HeightRequest="900">
+                <Grid BackgroundColor="White" RowSpacing="5" ColumnSpacing="5">
+                    <ImageButton Margin="2" Source="converse.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100"/>
+                    <ImageButton Margin="2" Source="skechers.png" Grid.Row="0" Grid.Column="1" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100"/>
+                    <ImageButton Margin="2" Source="nike.jpg" Grid.Row="0" Grid.Column="2" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100"/>
+                    <ImageButton Margin="2" Source="lacostelogo.jpg" Grid.Row="0" Grid.Column="3" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100"/>
+                    <ImageButton Margin="2" Source="adidas.jpg" Grid.Row="1" Grid.Column="0" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100"/>
+                    <ImageButton Margin="2" Source="puma.png" Grid.Row="1" Grid.Column="1" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100"/>
+                    <ImageButton Margin="2" Source="crocs.jpg" Grid.Row="1" Grid.Column="2" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100"/>
+                    <ImageButton Margin="2" Source="indir.png" Grid.Row="1" Grid.Column="3" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100"/>
+                    <ImageButton Margin="2" Source="vansjpg.jpg" Grid.Row="2" Grid.Column="0" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100"/>
+                    <ImageButton Margin="2" Source="tommyhilfiger.png" Grid.Row="2" Grid.Column="1" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100"/>
+                    <ImageButton Margin="2" Source="camper.jpg" Grid.Row="2" Grid.Column="2" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100"/>
+                    <ImageButton Margin="2" Source="thenorthface.jpg" Grid.Row="2" Grid.Column="3" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100"/>
+                </Grid>
                 
-            <ImageButton Margin="2" Source="converse.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1"/>
-            <ImageButton Margin="2" Source="skechers.png" Grid.Row="0" Grid.Column="1" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1"/>
-            <ImageButton Margin="2" Source="nike.jpg" Grid.Row="0" Grid.Column="2" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1"/>
-            <ImageButton Margin="2" Source="lacostelogo.jpg" Grid.Row="0" Grid.Column="3" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1"/>
-            <ImageButton Margin="2" Source="adidas.jpg" Grid.Row="1" Grid.Column="0" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1"/>
-            <ImageButton Margin="2" Source="puma.png" Grid.Row="1" Grid.Column="1" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1"/>
-            <ImageButton Margin="2" Source="crocs.jpg" Grid.Row="1" Grid.Column="2" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1"/>
-            <ImageButton Margin="2" Source="indir.png" Grid.Row="1" Grid.Column="3" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1"/>
-            <ImageButton Margin="2" Source="vansjpg.jpg" Grid.Row="2" Grid.Column="0" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1"/>
-            <ImageButton Margin="2" Source="tommyhilfiger.png" Grid.Row="2" Grid.Column="1" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1"/>
-            <ImageButton Margin="2" Source="camper.jpg" Grid.Row="2" Grid.Column="2" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1"/>
-            <ImageButton Margin="2" Source="thenorthface.jpg" Grid.Row="2" Grid.Column="3" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1"/>
-        </Grid>
+        </ScrollView>
+            
+        
+      
        
     </ContentPage.Content>
 </ContentPage>

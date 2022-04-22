@@ -4,7 +4,7 @@
              x:Class="SuperStepDeneme.Page2">
 
     <ScrollView HeightRequest="3600">
-        <StackLayout>
+        <StackLayout BackgroundColor="White">
             <ImageButton VerticalOptions="StartAndExpand" Margin="1" Source="brands.png" BackgroundColor="White" WidthRequest="600" HeightRequest="150"/>
             <ImageButton VerticalOptions="StartAndExpand" Margin="1" Source="man.png" BackgroundColor="White" WidthRequest="600" HeightRequest="150"/>
             <ImageButton VerticalOptions="StartAndExpand" Margin="1" Source="woman.png" BackgroundColor="White" WidthRequest="600" HeightRequest="150"/>

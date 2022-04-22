@@ -4,9 +4,61 @@
              x:Class="SuperStepDeneme.ManPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Man Page!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ScrollView HeightRequest="3600">
+                <StackLayout BackgroundColor="White">
+
+
+                    <ScrollView Orientation="Horizontal">
+                        <StackLayout>
+                            <Grid BackgroundColor="White">
+                                <ImageButton Source="manconverse.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                                <ImageButton Source="mannike.jpg" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                                <ImageButton Source="womanadidas.jpg" Grid.Row="0" Grid.Column="2" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                                <ImageButton Source="mannewbalance.jpg" Grid.Row="0" Grid.Column="3" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                                <ImageButton Source="manlacoste.jpg" Grid.Row="0" Grid.Column="4" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                                <ImageButton Source="manpuma.jpg" Grid.Row="0" Grid.Column="5" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+
+                            </Grid>
+
+                        </StackLayout>
+                    </ScrollView>
+
+                    <ImageButton VerticalOptions="StartAndExpand" Source="manbee.jpg" BackgroundColor="White" WidthRequest="510" HeightRequest="400"/>
+                    <Label Text="Öne Çıkanlar" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="Large" FontAttributes="Bold">
+                    </Label>
+                    <StackLayout>
+                        <Grid>
+                            <ImageButton Source="menskechersflex.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+                            <ImageButton Source="mannikeairmax.jpg" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+                        </Grid>
+                    </StackLayout>
+                    <Label Text="Kategori Seçenekleri" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="Medium" FontAttributes="Bold">
+                            
+                    </Label>
+                    <ScrollView Orientation="Horizontal">
+                        <StackLayout>
+                            <Grid BackgroundColor="White">
+                                <ImageButton Source="mansneakerkoleksiyon.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="100" HeightRequest="100"/>
+                                <ImageButton Source="mantshirt.jpg" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="100" HeightRequest="100"/>
+                                <ImageButton Source="manesofman.jpg" Grid.Row="0" Grid.Column="2" BackgroundColor="White" WidthRequest="100" HeightRequest="100"/>
+                                <ImageButton Source="mansweatshirt.jpg" Grid.Row="0" Grid.Column="3" BackgroundColor="White" WidthRequest="100" HeightRequest="100"/>
+                                <ImageButton Source="mansokcs.jpg" Grid.Row="0" Grid.Column="4" BackgroundColor="White" WidthRequest="100" HeightRequest="100"/>
+                            </Grid>
+
+                        </StackLayout>
+                    </ScrollView>
+
+                    <ImageButton  Source="indirim.jpg" BackgroundColor="White" WidthRequest="350" HeightRequest="300"/>
+                    <Grid>
+                        <ImageButton Source="mangiyim.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+                        <ImageButton Source="mansneaker" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+                        <ImageButton Source="manhat.jpg" Grid.Row="1" Grid.Column="0" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+                        <ImageButton Source="manbag.jpg" Grid.Row="1" Grid.Column="1" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+                    </Grid>
+                    <ImageButton VerticalOptions="StartAndExpand" Source="manblazer.jpg" BackgroundColor="White" WidthRequest="510" HeightRequest="400"/>
+                    <ImageButton VerticalOptions="StartAndExpand" Source="socialmedia.jpg" BackgroundColor="White" WidthRequest="400" HeightRequest="220"/>
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

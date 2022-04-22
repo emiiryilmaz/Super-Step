@@ -3,11 +3,57 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SuperStepDeneme.WomanPage">
     <ContentPage.Content>
-        <StackLayout>
-            <CarouselView>
-             
-            </CarouselView>
+        <ScrollView HeightRequest="3600">
+        <StackLayout BackgroundColor="White">
+                
+            
+                    <ScrollView Orientation="Horizontal">
+                    <StackLayout>
+                        <Grid BackgroundColor="White">
+                            <ImageButton Source="womannconverse.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                            <ImageButton Source="womannike.jpg" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                            <ImageButton Source="womanskechers.jpg" Grid.Row="0" Grid.Column="2" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                            <ImageButton Source="womanadidas.jpg" Grid.Row="0" Grid.Column="3" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                            <ImageButton Source="womannewbalance.jpg" Grid.Row="0" Grid.Column="4" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                            <ImageButton Source="womanlacoste.jpg" Grid.Row="0" Grid.Column="5" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                        </Grid>
+                      
+                    </StackLayout>
+                    </ScrollView>
+                          
+            <ImageButton VerticalOptions="StartAndExpand" Source="womanconverse.jpg" BackgroundColor="White" WidthRequest="510" HeightRequest="400"/>
+                <Label Text="Öne Çıkanlar" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="Large" FontAttributes="Bold">
+                </Label>
+                <StackLayout>
+                    <Grid>
+                        <ImageButton VerticalOptions="Start" Source="conversechuck.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+                        <ImageButton VerticalOptions="StartAndExpand" Source="conversechuckblack.jpg" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+                    </Grid>
+                </StackLayout>
+                <Label Text="Kategori Seçenekleri" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="Medium" FontAttributes="Bold">
+                </Label>
+                <ScrollView Orientation="Horizontal">
+                    <StackLayout>
+                        <Grid BackgroundColor="White">
+                            <ImageButton Source="sneakerkoleksiyon.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="100" HeightRequest="100"/>
+                            <ImageButton Source="womantshirt.jpg" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="100" HeightRequest="100"/>
+                            <ImageButton Source="womantayt.jpg" Grid.Row="0" Grid.Column="2" BackgroundColor="White" WidthRequest="100" HeightRequest="100"/>
+                            <ImageButton Source="womansweatshirt.jpg" Grid.Row="0" Grid.Column="3" BackgroundColor="White" WidthRequest="100" HeightRequest="100"/>
+                            <ImageButton Source="mansokcs.jpg" Grid.Row="0" Grid.Column="4" BackgroundColor="White" WidthRequest="100" HeightRequest="100"/>
+                        </Grid>
 
-        </StackLayout>
+                    </StackLayout>
+                </ScrollView>
+                <ImageButton VerticalOptions="StartAndExpand" Source="indirim.jpg" BackgroundColor="White" WidthRequest="350" HeightRequest="300"/>
+                <Grid>
+                    <ImageButton VerticalOptions="Start" Source="womanwhitesneaker.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+                    <ImageButton VerticalOptions="StartAndExpand" Source="womanbag.jpg" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+                    <ImageButton VerticalOptions="Start" Source="womanhat.jpg" Grid.Row="1" Grid.Column="0" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+                    <ImageButton VerticalOptions="StartAndExpand" Source="womandress.jpg" Grid.Row="1" Grid.Column="1" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+                </Grid>
+                <ImageButton VerticalOptions="StartAndExpand" Source="womanblazer.jpg" BackgroundColor="White" WidthRequest="510" HeightRequest="400"/>
+                <ImageButton VerticalOptions="StartAndExpand" Source="socialmedia.jpg" BackgroundColor="White" WidthRequest="400" HeightRequest="200"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
