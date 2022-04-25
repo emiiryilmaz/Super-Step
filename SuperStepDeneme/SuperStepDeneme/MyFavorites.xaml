@@ -2,6 +2,21 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SuperStepDeneme.Page3">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem 
+                     IconImageSource="indir.png" 
+                     Order="Default"
+                     Priority="0"/>
+        <ToolbarItem Text="Search" 
+                     IconImageSource="search.png" 
+                     Priority="1" 
+                     Order="Primary"/>
+        <ToolbarItem x:Name="basketbutton"
+                     Text="Basket"
+                     IconImageSource="basket.png"
+                     Order="Primary"
+                     Priority="2"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to My Favorites!"

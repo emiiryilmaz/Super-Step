@@ -1,3 +1,6 @@
+SuperStepDeneme.Droid.Activity1, SuperStepDeneme.Android;crc64c348b1b12a4461ef.Activity1
+SuperStepDeneme.Droid.Activity1;crc64c348b1b12a4461ef.Activity1
+superstepdeneme.droid.Activity1;crc64c348b1b12a4461ef.Activity1
 SuperStepDeneme.Droid.MainActivity, SuperStepDeneme.Android;crc64c348b1b12a4461ef.MainActivity
 SuperStepDeneme.Droid.MainActivity;crc64c348b1b12a4461ef.MainActivity
 superstepdeneme.droid.MainActivity;crc64c348b1b12a4461ef.MainActivity

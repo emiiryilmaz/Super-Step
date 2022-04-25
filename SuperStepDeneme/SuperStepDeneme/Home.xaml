@@ -2,26 +2,33 @@
 <TabbedPage  xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:TabbedPage.BarSelectedItemColor="DarkRed"
+             android:TabbedPage.BarItemColor ="Black"
+             android:TabbedPage.ToolbarPlacement="Top"
              xmlns:local="clr-namespace:SuperStepDeneme"
              x:Class="SuperStepDeneme.Page1">
     <TabbedPage.ToolbarItems>
-        <ToolbarItem 
-                     IconImageSource="indir.png" 
+        <ToolbarItem                        
+                     IconImageSource="indir.png"               
                      Order="Default"
                      Priority="0"/>
-        <ToolbarItem Text="Search" 
+        <ToolbarItem x:Name="searchbutton"
+                     Text="Search" 
                      IconImageSource="search.png" 
                      Priority="1" 
-                     Order="Primary"/>
-        <ToolbarItem Text="Basket"
+                     Order="Primary"
+                     Clicked="searchbutton_Clicked"/>
+        <ToolbarItem x:Name="basketbutton"
+                     Text="Basket"
                      IconImageSource="basket.png"
                      Order="Primary"
                      Priority="2"
+                     Clicked="basketbutton_Clicked"
                      />
     </TabbedPage.ToolbarItems>
     <local:WomanPage Title="Kadın"/>
     <local:ManPage Title="Erkek"/>
     <local:KidPage Title="Çocuk"/>
     <local:BrandPage Title="Markalar"/>
-   
+    
 </TabbedPage>

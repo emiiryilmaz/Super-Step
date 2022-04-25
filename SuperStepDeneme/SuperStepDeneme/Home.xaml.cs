@@ -19,5 +19,16 @@ namespace SuperStepDeneme
             var clr2 = Color.Black; this.BarTextColor = clr2;
             var clr3 = Color.DarkRed; this.SelectedTabColor = clr3;
         }
+        private void basketbutton_Clicked(object sender, EventArgs e)
+        {
+    
+            Navigation.PushAsync(new BasketPage());
+
+        }
+
+        private void searchbutton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SearchPage());
+        }
     }
 }

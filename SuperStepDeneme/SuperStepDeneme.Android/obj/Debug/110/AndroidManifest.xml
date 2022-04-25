@@ -10,8 +10,9 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <application android:label="SuperStepDeneme.Android" android:theme="@style/MainTheme" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true" android:extractNativeLibs="true">
-    <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon" android:label="SuperStepDeneme" android:theme="@style/MainTheme" android:name="crc64c348b1b12a4461ef.MainActivity" android:exported="true">
+  <application android:label="SuperStepDeneme.Android" android:theme="@style/MainTheme" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true" android:extractNativeLibs="true">
+    <activity android:label="Activity1" android:name="crc64c348b1b12a4461ef.Activity1" />
+    <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/iclauncherround" android:label="SuperStep" android:theme="@style/MainTheme" android:name="crc64c348b1b12a4461ef.MainActivity" android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

@@ -29,7 +29,9 @@ namespace SuperStepDeneme
 
         private void signUpButton_Clicked(object sender, EventArgs e)
         {
-            App.Current.MainPage = new CreateAccountPage();
+            //App.Current.MainPage = new CreateAccountPage();
+            Navigation.PushAsync(new CreateAccountPage());
+
         }
     }
 }

@@ -9,8 +9,8 @@
                 <ScrollView Orientation="Horizontal">
                     <StackLayout>
                         <Grid BackgroundColor="White">
-                            <ImageButton Source="cocukskechers.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
-                            <ImageButton Source="cocukpuma.jpg" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                            <ImageButton x:Name="kidskechers" Source="cocukskechers.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="90" HeightRequest="130" Clicked="kidskechers_Clicked"/>
+                            <ImageButton x:Name="kidpuma" Source="cocukpuma.jpg" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="90" HeightRequest="130" Clicked="kidpuma_Clicked"/>
                             <ImageButton Source="cocunike.jpg" Grid.Row="0" Grid.Column="2" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
                             <ImageButton Source="cocukadidas.jpg" Grid.Row="0" Grid.Column="3" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
                             <ImageButton Source="cocukconverse.jpg" Grid.Row="0" Grid.Column="4" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>

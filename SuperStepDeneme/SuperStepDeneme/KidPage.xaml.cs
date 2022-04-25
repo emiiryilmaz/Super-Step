@@ -16,5 +16,17 @@ namespace SuperStepDeneme
         {
             InitializeComponent();
         }
+
+        private void kidskechers_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ProductsByCategory("KidSkechers"));
+
+        }
+
+        private void kidpuma_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ProductsByCategory("KidPuma"));
+
+        }
     }
 }

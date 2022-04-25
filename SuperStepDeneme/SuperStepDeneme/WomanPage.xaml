@@ -10,12 +10,12 @@
                     <ScrollView Orientation="Horizontal">
                     <StackLayout>
                         <Grid BackgroundColor="White">
-                            <ImageButton Source="womannconverse.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
-                            <ImageButton Source="womannike.jpg" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
-                            <ImageButton Source="womanskechers.jpg" Grid.Row="0" Grid.Column="2" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
-                            <ImageButton Source="womanadidas.jpg" Grid.Row="0" Grid.Column="3" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
-                            <ImageButton Source="womannewbalance.jpg" Grid.Row="0" Grid.Column="4" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
-                            <ImageButton Source="womanlacoste.jpg" Grid.Row="0" Grid.Column="5" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                            <ImageButton x:Name="womanconverse" Source="womannconverse.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="90" HeightRequest="130" Clicked="womanconverse_Clicked"/>
+                            <ImageButton x:Name="womannike" Source="womannike.jpg" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="90" HeightRequest="130" Clicked="womannike_Clicked"/>
+                            <ImageButton x:Name="womanskechers" Source="womanskechers.jpg" Grid.Row="0" Grid.Column="2" BackgroundColor="White" WidthRequest="90" HeightRequest="130" Clicked="womanskechers_Clicked"/>
+                            <ImageButton x:Name="womanadidas" Source="womanadidas.jpg" Grid.Row="0" Grid.Column="3" BackgroundColor="White" WidthRequest="90" HeightRequest="130" Clicked="womanadidas_Clicked"/>
+                            <ImageButton x:Name="womannewbalance"  Source="womannewbalance.jpg" Grid.Row="0" Grid.Column="4" BackgroundColor="White" WidthRequest="90" HeightRequest="130" Clicked="womannewbalance_Clicked"/>
+                            <ImageButton x:Name="womanlacoste"  Source="womanlacoste.jpg" Grid.Row="0" Grid.Column="5" BackgroundColor="White" WidthRequest="90" HeightRequest="130" Clicked="womanlacoste_Clicked"/>
                         </Grid>
                       
                     </StackLayout>

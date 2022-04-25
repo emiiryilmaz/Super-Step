@@ -11,10 +11,12 @@ namespace SuperStepDeneme
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Page3 : ContentPage
+
     {
-        public Page3()
+            public Page3()
         {
             InitializeComponent();
+                       
         }
     }
 }

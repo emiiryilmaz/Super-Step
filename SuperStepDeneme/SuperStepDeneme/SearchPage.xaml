@@ -4,9 +4,10 @@
              x:Class="SuperStepDeneme.SearchPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <SearchBar Placeholder="Marka,ürün veya kategori arayın" >
+            </SearchBar>
+            <Button Text="BARKOD İLE ARA" BackgroundColor="DarkGray" TextColor="Black" FontSize="Medium" FontAttributes="Bold" ImageSource="">
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

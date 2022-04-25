@@ -2,8 +2,6 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SuperStepDeneme.CreateAccountPage">
-   
-
     <ScrollView HeightRequest="3000">
         <StackLayout Margin="15"
                      VerticalOptions="Start">
@@ -22,12 +20,18 @@
 
         <Entry Placeholder="Şifreniz"
                 IsPassword="True"/>
-            <CheckBox x:Name="checkBox" Color="DarkRed" IsChecked ="False"/>
-            <Label Text="Üyelik Formu Aydınlatma Metnini okudum" VerticalOptions="StartAndExpand"/>
-            <CheckBox x:Name="checkBox1" Color="DarkRed" IsChecked ="False" />
-            <Label Text="Kullanıcı Sözleşmesi'ni okudum,kabul ediyorum." VerticalOptions="End"/>
-            <CheckBox x:Name="checkBox2" Color="DarkRed" IsChecked ="False"/>
-            <Label Text="Tarafıma ticari elektronik ileti gönderilmesine ve bu kapsamda verilerimin işlenmesine açık rıza veriyorum." VerticalOptions="CenterAndExpand"/>
+            <StackLayout Orientation="Horizontal">
+                <CheckBox x:Name="checkBox" Color="DarkRed" IsChecked ="False"/>
+                <Label Text="Üyelik Formu Aydınlatma Metnini okudum"/>
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal">
+                <CheckBox x:Name="checkBox1" Color="DarkRed" IsChecked ="False" />
+                <Label Text="Kullanıcı Sözleşmesi'ni okudum,kabul ediyorum."/>
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal">
+                <CheckBox x:Name="checkBox2" Color="DarkRed" IsChecked ="False"/>
+                <Label Text="Tarafıma ticari elektronik ileti gönderilmesine ve bu kapsamda verilerimin işlenmesine açık rıza veriyorum." />
+            </StackLayout>
             <Button x:Name="signUpButtonCreate"
                 Text="ÜYE OL"
                 TextColor="White"

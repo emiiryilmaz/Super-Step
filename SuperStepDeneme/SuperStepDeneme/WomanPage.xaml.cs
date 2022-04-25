@@ -16,5 +16,45 @@ namespace SuperStepDeneme
         {
             InitializeComponent();
         }
+
+        private void ImageButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ImageButton_Clicked_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void womanskechers_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ProductsByCategory("WomanSkechers"));
+        }
+
+        private void womanadidas_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void womannewbalance_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void womanlacoste_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void womanconverse_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ProductsByCategory("WomanConverse"));
+        }
+
+        private void womannike_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ProductsByCategory("WomanNike"));
+        }
     }
 }

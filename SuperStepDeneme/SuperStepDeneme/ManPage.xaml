@@ -6,20 +6,17 @@
         <StackLayout>
             <ScrollView HeightRequest="3600">
                 <StackLayout BackgroundColor="White">
-
-
+                    
                     <ScrollView Orientation="Horizontal">
                         <StackLayout>
                             <Grid BackgroundColor="White">
-                                <ImageButton Source="manconverse.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
-                                <ImageButton Source="mannike.jpg" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
-                                <ImageButton Source="womanadidas.jpg" Grid.Row="0" Grid.Column="2" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
-                                <ImageButton Source="mannewbalance.jpg" Grid.Row="0" Grid.Column="3" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
-                                <ImageButton Source="manlacoste.jpg" Grid.Row="0" Grid.Column="4" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
-                                <ImageButton Source="manpuma.jpg" Grid.Row="0" Grid.Column="5" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
-
+                                <ImageButton x:Name="manconverse" Source="manconverse.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="90" HeightRequest="130" Clicked="manconverse_Clicked"/>
+                                <ImageButton x:Name="mannike" Source="mannike.jpg" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="90" HeightRequest="130" Clicked="mannike_Clicked"/>
+                                <ImageButton x:Name="manadidas" Source="womanadidas.jpg" Grid.Row="0" Grid.Column="2" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                                <ImageButton x:Name="mannewbalance" Source="mannewbalance.jpg" Grid.Row="0" Grid.Column="3" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                                <ImageButton x:Name="manlacoste" Source="manlacoste.jpg" Grid.Row="0" Grid.Column="4" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
+                                <ImageButton x:Name="manpuma" Source="manpuma.jpg" Grid.Row="0" Grid.Column="5" BackgroundColor="White" WidthRequest="90" HeightRequest="130"/>
                             </Grid>
-
                         </StackLayout>
                     </ScrollView>
 

@@ -11,7 +11,8 @@ namespace SuperStepDeneme
             InitializeComponent();
 
             //MainPage = new NavigationPage(new TabbedPage1());
-            MainPage = new NavigationPage(new TabbedPage1()) { BarBackgroundColor = Color.FromHex("#FFFFFF"), BarTextColor = Color.Black };
+            MainPage = new NavigationPage(new TabbedPage1())
+            { BarBackgroundColor = Color.FromHex("#FFFFFF"), BarTextColor = Color.Black };
         }
 
         protected override void OnStart()
