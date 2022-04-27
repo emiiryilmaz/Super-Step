@@ -8,10 +8,6 @@
              xmlns:local="clr-namespace:SuperStepDeneme"
              x:Class="SuperStepDeneme.Page1">
     <TabbedPage.ToolbarItems>
-        <ToolbarItem                        
-                     IconImageSource="indir.png"               
-                     Order="Default"
-                     Priority="0"/>
         <ToolbarItem x:Name="searchbutton"
                      Text="Search" 
                      IconImageSource="search.png" 

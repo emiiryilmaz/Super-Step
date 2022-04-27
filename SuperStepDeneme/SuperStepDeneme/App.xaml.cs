@@ -9,8 +9,6 @@ namespace SuperStepDeneme
         public App()
         {
             InitializeComponent();
-
-            //MainPage = new NavigationPage(new TabbedPage1());
             MainPage = new NavigationPage(new TabbedPage1())
             { BarBackgroundColor = Color.FromHex("#FFFFFF"), BarTextColor = Color.Black };
         }

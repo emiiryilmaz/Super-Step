@@ -1,12 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SuperStepDeneme.DetailPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+             x:Class="SuperStepDeneme.DetailPage"
+             >
+    <StackLayout>
+        <ScrollView>
+            <Grid RowDefinitions="300" >
+                <CarouselView ItemsSource="{Binding IList}">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout>
+                                <!--<Frame Padding="5"
+                               HasShadow="True"
+                               BorderColor="DarkGray"
+                               CornerRadius="5"
+                               HeightRequest ="240"
+                               HorizontalOptions="CenterAndExpand"
+                               VerticalOptions="CenterAndExpand">-->
+                                <Image Source="{Binding DetailImageURL}"
+                                   Aspect="AspectFill" WidthRequest="250" HeightRequest="340"/>
+                                <!--</Frame>-->
+                            </StackLayout>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+                <Label Padding="0" Grid.Row ="1" Text="Converse Chuck 70 Recyled rPET Canvas Kadın Pembe Sneaker                                                                         
+                      1.539 TL" TextColor="Black" FontSize="Medium" FontAttributes="None"/>
+                <Grid Grid.Row="2">
+                    <Button Grid.Row="0" Grid.Column="0" Text="35" CornerRadius="100"/>
+                    <Button Grid.Row="0" Grid.Column="1" Text="36" CornerRadius="100"/>
+                    <Button Grid.Row="0" Grid.Column="2" Text="37" CornerRadius="100"/>
+                    <Button Grid.Row="0" Grid.Column="3" Text="38" CornerRadius="100"/>
+                    <Button Grid.Row="0" Grid.Column="4" Text="39" CornerRadius="100"/>
+                    <Button Grid.Row="0" Grid.Column="5" Text="40" CornerRadius="100"/>
+                    <Button Grid.Row="0" Grid.Column="6" Text="41" CornerRadius="100"/>
+                </Grid>
+                <Label Grid.Row="3" Text="Ürün Özellikleri" TextColor="Black" FontAttributes="Bold" FontSize="Medium"/>
+                <Label Grid.Row ="4" Text="%100 geri dönüştürülmüş polyester. High top kanvas sneaker. Kanatlı dil dikişi, yerine sabitlenmesine yardımcı olur." TextColor="Black"/>
+            </Grid>
+        </ScrollView>
+
+        <Button x:Name="addbasketbutton"
+                Text="Sepete Ekle"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                TextTransform="Default"
+                TextColor="DarkRed"
+                BorderColor="DarkRed"
+                BorderWidth="2"
+                BackgroundColor="White"
+                Margin="5"
+                Clicked="addbasketbutton_Clicked"/>
+        <Button x:Name="addmyfavoritesbutton"
+                Text="Favorilere Ekle"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                TextTransform="Default"
+                TextColor="DarkRed"
+                BorderColor="DarkRed"
+                BorderWidth="2"
+                BackgroundColor="White"
+                Clicked="addmyfavoritesbutton_Clicked"
+                Margin="5"/>
+        
+    </StackLayout>
+
 </ContentPage>

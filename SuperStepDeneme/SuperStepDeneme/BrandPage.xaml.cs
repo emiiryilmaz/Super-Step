@@ -19,7 +19,17 @@ namespace SuperStepDeneme
 
         private void converse_Clicked(object sender, EventArgs e)
         {
-            
+            Navigation.PushAsync(new ProductsByCategory("WomanConverse"));
+        }
+
+        private void skechers_Clicked(object sender, EventArgs e)
+        {
+           Navigation.PushAsync(new ProductsByCategory("KidSkechers"));
+        }
+
+        private void nike_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ProductsByCategory("ManNike"));
         }
     }
 }

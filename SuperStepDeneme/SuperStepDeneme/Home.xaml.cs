@@ -28,7 +28,7 @@ namespace SuperStepDeneme
 
         private void searchbutton_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new SearchPage());
+            Navigation.PushAsync(new ProductsByCategory(" "));
         }
     }
 }

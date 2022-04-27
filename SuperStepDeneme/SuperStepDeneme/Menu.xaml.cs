@@ -14,7 +14,30 @@ namespace SuperStepDeneme
     {
         public Page2()
         {
+      
             InitializeComponent();
+            
+
+        }
+
+        private void brandsmenu_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new BrandPage());
+        }
+
+        private void manmenu_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ManPage());
+        }
+
+        private void womanmenu_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new WomanPage());
+        }
+
+        private void kidmenu_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new KidPage());
         }
     }
 }

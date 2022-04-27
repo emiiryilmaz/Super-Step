@@ -3,10 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SuperStepDeneme.Page4">
     <ContentPage.ToolbarItems>
-        <ToolbarItem 
-                     IconImageSource="indir.png" 
-                     Order="Primary"
-                     Priority="1"/>
         <ToolbarItem Text="Search" 
                      IconImageSource="search.png" 
                      Priority="2" 

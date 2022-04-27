@@ -4,27 +4,33 @@
              x:Class="SuperStepDeneme.ProductsByCategory">
 
     <ContentPage.Content>
-        
-        <CollectionView x:Name="Collection1" ItemsSource= "{Binding IList }" ItemsLayout="VerticalGrid,2" BackgroundColor="White">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Grid Padding="1">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="auto"/>
-                            <RowDefinition Height="auto"/>
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="auto"/>
-                            <ColumnDefinition Width="auto"/>
-                        </Grid.ColumnDefinitions>
-                        <ImageButton 
-                            Source="{Binding ImageURL}" Grid.RowSpan="2">
-                        </ImageButton>
-                    </Grid>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-        
+        <StackLayout>
+            <SearchBar x:Name="searchbar1"
+                       Placeholder="Marka,ürün veya kategori arayın"
+                       HorizontalTextAlignment="Center"
+                       TextChanged="searchbar_TextChanged">
+            </SearchBar>
+
+            <CollectionView x:Name="Collection1" ItemsSource= "{Binding IList }" ItemsLayout="VerticalGrid,2" BackgroundColor="White">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                            <ImageButton x:Name="ProductDetail"
+                            Source="{Binding ImageURL}" Grid.RowSpan="2" Clicked="ProductDetail_Clicked">
+                            </ImageButton>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
     </ContentPage.Content>
 
 </ContentPage>

@@ -4,9 +4,7 @@
              x:Class="SuperStepDeneme.SearchPage">
     <ContentPage.Content>
         <StackLayout>
-            <SearchBar Placeholder="Marka,ürün veya kategori arayın" >
-            </SearchBar>
-            <Button Text="BARKOD İLE ARA" BackgroundColor="DarkGray" TextColor="Black" FontSize="Medium" FontAttributes="Bold" ImageSource="">
+            <Button Text="BARKOD İLE ARA" BackgroundColor="DarkGray" TextColor="Black" FontSize="Medium" FontAttributes="Bold" >
             </Button>
         </StackLayout>
     </ContentPage.Content>

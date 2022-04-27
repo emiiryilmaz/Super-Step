@@ -56,5 +56,21 @@ namespace SuperStepDeneme
         {
             Navigation.PushAsync(new ProductsByCategory("WomanNike"));
         }
+
+        private void womanblazer_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ProductsByCategory("WomanNike"));
+
+        }
+
+        private void womannconverse_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ProductsByCategory("WomanConverse"));
+        }
+
+        private void womanbag_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ProductsByCategory("WomanBag"));
+        }
     }
 }

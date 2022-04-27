@@ -19,15 +19,15 @@
                     </StackLayout>
                 </ScrollView>
             
-                <ImageButton VerticalOptions="StartAndExpand" Source="kidnike.jpg" BackgroundColor="White" WidthRequest="510" HeightRequest="400"/>
+                <ImageButton Source="kidnike.jpg" BackgroundColor="White" WidthRequest="510" HeightRequest="400"/>
             
             <Label Text="Öne Çıkanlar" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="Large" FontAttributes="Bold">
             </Label>
             
             <StackLayout>
-                    <Grid BackgroundColor="White">
-                    <ImageButton VerticalOptions="Start" Source="crocskid.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
-                    <ImageButton VerticalOptions="StartAndExpand" Source="nikekid.jpg" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+                <Grid BackgroundColor="White">
+                    <ImageButton  Source="crocskid.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
+                    <ImageButton  Source="nikekid.jpg" Grid.Row="0" Grid.Column="1" BackgroundColor="White" WidthRequest="250" HeightRequest="250"/>
                 </Grid>
             </StackLayout>
                 

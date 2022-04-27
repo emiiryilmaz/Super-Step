@@ -7,8 +7,8 @@
             <ScrollView HeightRequest="900">
                 <Grid BackgroundColor="White" RowSpacing="5" ColumnSpacing="5">
                     <ImageButton x:Name="converse" Margin="2" Source="converse.jpg" Grid.Row="0" Grid.Column="0" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100" Clicked="converse_Clicked"/>
-                    <ImageButton Margin="2" Source="skechers.png" Grid.Row="0" Grid.Column="1" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100"/>
-                    <ImageButton Margin="2" Source="nike.jpg" Grid.Row="0" Grid.Column="2" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100"/>
+                    <ImageButton x:Name="skechers" Margin="2" Source="skechers.png" Grid.Row="0" Grid.Column="1" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100" Clicked="skechers_Clicked"/>
+                    <ImageButton x:Name="nike" Margin="2" Source="nike.jpg" Grid.Row="0" Grid.Column="2" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100" Clicked="nike_Clicked"/>
                     <ImageButton Margin="2" Source="lacostelogo.jpg" Grid.Row="0" Grid.Column="3" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100"/>
                     <ImageButton Margin="2" Source="adidas.jpg" Grid.Row="1" Grid.Column="0" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100"/>
                     <ImageButton Margin="2" Source="puma.png" Grid.Row="1" Grid.Column="1" BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Gray" BorderWidth="1" WidthRequest="100" HeightRequest="100"/>

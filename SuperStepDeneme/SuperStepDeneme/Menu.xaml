@@ -4,15 +4,15 @@
              xmlns:local="clr-namespace:SuperStepDeneme"
              x:Class="SuperStepDeneme.Page2">
 
-
     <ScrollView HeightRequest="3600">
         <StackLayout BackgroundColor="White">
-            <ImageButton VerticalOptions="StartAndExpand" Margin="1" Source="brands.png" BackgroundColor="White" WidthRequest="600" HeightRequest="150"/>
-            <ImageButton VerticalOptions="StartAndExpand" Margin="1" Source="man.png" BackgroundColor="White" WidthRequest="600" HeightRequest="150"/>
-            <ImageButton VerticalOptions="StartAndExpand" Margin="1" Source="woman.png" BackgroundColor="White" WidthRequest="600" HeightRequest="150"/>
-            <ImageButton VerticalOptions="StartAndExpand" Margin="1" Source="kid.png" BackgroundColor="White" WidthRequest="600" HeightRequest="150"/>
+            <ImageButton x:Name="brandsmenu" VerticalOptions="StartAndExpand" Margin="1" Source="brands.png" BackgroundColor="White" WidthRequest="600" HeightRequest="150" Clicked="brandsmenu_Clicked"/>
+            <ImageButton x:Name="manmenu" VerticalOptions="StartAndExpand" Margin="1" Source="man.png" BackgroundColor="White" WidthRequest="600" HeightRequest="150" Clicked="manmenu_Clicked" />
+            <ImageButton x:Name="womanmenu" VerticalOptions="StartAndExpand" Margin="1" Source="woman.png" BackgroundColor="White" WidthRequest="600" HeightRequest="150" Clicked="womanmenu_Clicked"/>
+            <ImageButton x:Name="kidmenu" VerticalOptions="StartAndExpand" Margin="1" Source="kid.png" BackgroundColor="White" WidthRequest="600" HeightRequest="150" Clicked="kidmenu_Clicked"/>
             <ImageButton VerticalOptions="StartAndExpand" Margin="1" Source="dress.png" BackgroundColor="White" WidthRequest="600" HeightRequest="150"/>
             <ImageButton VerticalOptions="StartAndExpand" Margin="1" Source="discount.png" BackgroundColor="White" WidthRequest="600" HeightRequest="150"/>
         </StackLayout>
     </ScrollView>
+
 </ContentPage>
